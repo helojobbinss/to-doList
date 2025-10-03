@@ -1,0 +1,5 @@
+CREATE TABLE tasks (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    descricao VARCHAR(255) NOT NULL,
+    completo TINYINT DEFAULT 0
+);
